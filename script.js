@@ -33,6 +33,8 @@ console.log(product1.displayProductInfo()); // Logs to console
 // Outputs: Product: Banana, Price: $3.2, Quantity: 6
 // Add logic for additional 0 in $3.20
 
-let steak = new PerishableProduct('Steak', 13.41, 1, '2026-04-03');
+let steak = new PerishableProduct('Steak', 13.41, 1, '2026-04-03'); // Creates object for sub class PerishableProduct
 
-console.log(steak.displayProductInfo());
+console.log(steak.displayProductInfo()); // Logs to console
+
+// Outputs: Product: Steak, Price: $13.41, Quantity: 1, Expiration Date: 2026-04-03
