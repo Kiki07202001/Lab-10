@@ -12,6 +12,12 @@ class Product {
     displayProductInfo() {
         return `Product: ${this.name}, Price: $${this.price}, Quantity: ${this.quantity}`; // Displays each product as a string
     }
+
+    static applyDiscount(products, discount) {
+        products.forEach(product => {
+            product.price = product.price - (product.price * discount);
+    })
+}
 }
 
 class PerishableProduct extends Product { // sub class to super class "Product"
