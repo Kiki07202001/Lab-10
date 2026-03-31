@@ -35,4 +35,4 @@ console.log(product1.displayProductInfo()); // Logs to console
 
 let steak = new PerishableProduct('Steak', 13.41, 1, '2026-04-03');
 
-console.log(steak.displayProductInfo());
+console.log(steak.displayProductInfo());  
