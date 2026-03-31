@@ -14,14 +14,14 @@ class Product {
     }
 }
 
-class PerishableProduct extends Product {
-    constructor(name, price, quantity, expirationDate) {
-        super(name, price, quantity);
-        this.expirationDate = expirationDate;
+class PerishableProduct extends Product { // sub class to super class "Product"
+    constructor(name, price, quantity, expirationDate) { // added expirationDate to the constructor
+        super(name, price, quantity); // calls super to invoke the Product class constructor
+        this.expirationDate = expirationDate; // creates expirationDate property and gives it a value
     }
 
     displayProductInfo() {
-        return `Product: ${this.name}, Price: $${this.price}, Quantity: ${this.quantity}, Expiration Date: ${this.expirationDate}`;
+        return `Product: ${this.name}, Price: $${this.price}, Quantity: ${this.quantity}, Expiration Date: ${this.expirationDate}`; // Override displayProductInfo
     }
 }
 
