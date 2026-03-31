@@ -25,3 +25,7 @@ class PerishableProduct extends Product { // sub class to super class "Product"
     }
 }
 
+let product1 = new Product('Banana', 3.20, 6);
+
+console.log(product1.displayProductInfo());
+
