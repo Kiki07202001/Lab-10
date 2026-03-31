@@ -32,6 +32,13 @@ class PerishableProduct extends Product { // sub class to super class "Product"
     }
 }
 
+class Store {
+    constructor () {
+        this.inventory = [];
+    }
+}
+
+
 // Tester code
 let product1 = new Product('Banana', 3.20, 6); // Creates object for Product class
 
