@@ -25,7 +25,14 @@ class PerishableProduct extends Product { // sub class to super class "Product"
     }
 }
 
-let product1 = new Product('Banana', 3.20, 6);
+// Tester code
+let product1 = new Product('Banana', 3.20, 6); // Creates object for Product class
 
-console.log(product1.displayProductInfo());
+console.log(product1.displayProductInfo()); // Logs to console
 
+// Outputs: Product: Banana, Price: $3.2, Quantity: 6
+// Add logic for additional 0 in $3.20
+
+let steak = new PerishableProduct('Steak', 13.41, 1, '2026-04-03');
+
+console.log(steak.displayProductInfo());
