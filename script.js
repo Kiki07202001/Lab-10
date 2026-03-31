@@ -18,6 +18,7 @@ class Product {
             product.price = product.price - (product.price * discount);
     })
 }
+
 }
 
 class PerishableProduct extends Product { // sub class to super class "Product"
@@ -44,3 +45,11 @@ let steak = new PerishableProduct('Steak', 13.41, 1, '2026-04-03'); // Creates o
 console.log(steak.displayProductInfo()); // Logs to console
 
 // Outputs: Product: Steak, Price: $13.41, Quantity: 1, Expiration Date: 2026-04-03
+
+let testProducts = [
+    new Product('Bread', 2.50, 3),
+    new Product('Carrots', 4.00, 2)
+]
+
+Product.applyDiscount(testProducts, 0.1);
+console.log(testProducts);
