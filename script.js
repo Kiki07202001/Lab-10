@@ -15,7 +15,7 @@ class Product {
 
     static applyDiscount(products, discount) {
         products.forEach(product => {
-            product.price = product.price.toFixed(2) - (product.price * discount);
+            product.price = product.price - (product.price * discount);
     })
 }
 
@@ -65,7 +65,6 @@ let product1 = new Product('Banana', 3.20, 6); // Creates object for Product cla
 console.log(product1.displayProductInfo()); // Logs to console
 
 // Outputs: Product: Banana, Price: $3.2, Quantity: 6
-// Add logic for additional 0 in $3.20
 
 let steak = new PerishableProduct('Steak', 13.41, 1, '2026-04-03'); // Creates object for sub class PerishableProduct
 
@@ -107,4 +106,14 @@ Product.applyDiscount(store.inventory, 0.15);
 
 //print to console the total after the discount
 console.log("Total after discount: $" + store.getInventoryValue().toFixed(2));
+
+
+// Search the store inventory for a product with the name Yogurt
+let foundProduct = store.getProductByName('Yogurt');
+
+if (foundProduct) {
+    console.log(foundProduct.displayProductInfo()); // if product is found print to console
+} else {
+    console.log('Product not found'); // print product not found if not
+}
 
