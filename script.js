@@ -32,13 +32,6 @@ class PerishableProduct extends Product { // sub class to super class "Product"
     }
 }
 
-class Store {
-    constructor () {
-        this.inventory = [];
-    }
-}
-
-
 // Tester code
 let product1 = new Product('Banana', 3.20, 6); // Creates object for Product class
 
@@ -53,10 +46,11 @@ console.log(steak.displayProductInfo()); // Logs to console
 
 // Outputs: Product: Steak, Price: $13.41, Quantity: 1, Expiration Date: 2026-04-03
 
-let testProducts = [
+// Static method tester code
+let testProducts = [ // create new product objects
     new Product('Bread', 2.50, 3),
     new Product('Carrots', 4.00, 2)
 ]
 
-Product.applyDiscount(testProducts, 0.1);
-console.log(testProducts);
+Product.applyDiscount(testProducts, 0.1); // apply the static method 
+console.log(testProducts); // log result
