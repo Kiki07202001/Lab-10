@@ -41,7 +41,18 @@ class Store {
 
     addProduct(product) {
     this.inventory.push(product);
-}
+    }
+
+    getInventoryValue() {
+    let total = 0;
+
+    this.inventory.forEach(product => {
+        total += product.getTotalValue();
+    });
+
+    return total;
+    }
+    
 }
 
 // Tester code
