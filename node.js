@@ -34,4 +34,31 @@ Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
 To https://github.com/Kiki07202001/Lab-10.git
    822b576..af3948a  main -> main
+[1m[7m%[27m[1m[0m                                                                                                            [0m[27m[24m[Jkikibrusey@Kikis-MacBook-Air Lab-10 % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                            [0m[27m[24m[Jkikibrusey@Kikis-MacBook-Air Lab-10 % [K[?2004hggit push     commit -m " Added store class"[?2004l
+[main cf62680] Added store class
+ Committer: Kiki Brusey <kikibrusey@Kikis-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 37 insertions(+), 1 deletion(-)
+[1m[7m%[27m[1m[0m                                                                                                            [0m[27m[24m[Jkikibrusey@Kikis-MacBook-Air Lab-10 % [K[?2004hggit a push origin main[?2004l
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 1.34 KiB | 1.34 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/Kiki07202001/Lab-10.git
+   af3948a..cf62680  main -> main
 [1m[7m%[27m[1m[0m                                                                                                            [0m[27m[24m[Jkikibrusey@Kikis-MacBook-Air Lab-10 % [K[?2004h
