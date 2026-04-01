@@ -30,6 +30,14 @@ class PerishableProduct extends Product { // sub class to super class "Product"
     displayProductInfo() {
         return `Product: ${this.name}, Price: $${this.price}, Quantity: ${this.quantity}, Expiration Date: ${this.expirationDate}`; // Override displayProductInfo
     }
+
+
+}
+
+class Store {
+    constructor() {
+        this.inventory = [];
+    }
 }
 
 // Tester code
