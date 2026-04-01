@@ -196,4 +196,31 @@ Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
 To https://github.com/Kiki07202001/Lab-10.git
    dc1af10..63de435  main -> main
-[1m[7m%[27m[1m[0m                                                                                                            [0m[27m[24m[Jkikibrusey@Kikis-MacBook-Air Lab-10 % [K[?2004h
+[1m[7m%[27m[1m[0m                                                                                                            [0m[27m[24m[Jkikibrusey@Kikis-MacBook-Air Lab-10 % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                            [0m[27m[24m[Jkikibrusey@Kikis-MacBook-Air Lab-10 % [K[?2004hggit commit -m "add products to sstore      tore inventory"[?2004l
+[main 2b043da] add products to store inventory
+ Committer: Kiki Brusey <kikibrusey@Kikis-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 27 insertions(+)
+[1m[7m%[27m[1m[0m                                                                                                            [0m[27m[24m[Jkikibrusey@Kikis-MacBook-Air Lab-10 % [K[?2004hggit push origin , main[?2004l
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 440 bytes | 440.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/Kiki07202001/Lab-10.git
+   63de435..2b043da  main -> main
+[1m[7m%[27m[1m[0m                                                                                                            [0m[27m[24m[Jkikibrusey@Kikis-MacBook-Air Lab-10 % [K[?2004hggit add .
